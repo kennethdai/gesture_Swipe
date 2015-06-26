@@ -42,7 +42,7 @@
     imageView0.center = originalCenterForView2;
     imageView0.backgroundColor = [UIColor greenColor];
     [self addSubview:imageView0];
-    [self bringSubviewToFront:imageView1];        
+    [self bringSubviewToFront:imageView1];
     
 }
 

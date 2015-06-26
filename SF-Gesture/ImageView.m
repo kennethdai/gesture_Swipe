@@ -111,12 +111,12 @@
         CGPoint temPoint = [sender locationInView:self.superview];
         double distance = (temPoint.x - pointA.x);
         
-        if (distance > self.frame.size.width / 3) {
+        if (distance > self.frame.size.width / 4) {
             if ([_delegate respondsToSelector:@selector(viewDisappearToRight)])
             {
                 [_delegate viewDisappearToRight];
             }
-        } else if (distance < -(self.frame.size.width / 3))
+        } else if (distance < -(self.frame.size.width / 4))
         {
             if ([_delegate respondsToSelector:@selector(viewDisappearToLeft)])
             {
